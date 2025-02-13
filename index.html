@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    input[type=text] {
+      width: 30px;
+      box-sizing: border-box;
+      border: 0px solid #f8f9fa;
+      border-radius: 4px;
+      font-size: 16px;
+      background-image: url('images/searchicon.png');
+      background-color: #fff;
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+    }
+
+    input[type=text]:focus {
+      width: 90%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar-one flex">
+    <div class="left-flex">
+      <ul class="flex">
+        <li>
+          <img src="images/satyamev.png" tabindex="0" alt="CBSE logo" style="height: 50px; width: 50px; padding:5px; ">
+        </li>
+        <li class="CBSE">
+          <a title="govt of India" tabindex="0" href="#">Government of India | </a>
+        </li>
+        <li><a href="#" tabindex="0">Central Board of Secondary Education</a></li>
+      </ul>
+    </div>
+    <div class="right-flex">
+      <ul class="flex">
+        <li class="ico-skip">
+          <a href="#skipCont" tabindex="0">
+            <img src="images/ico-skip.png" alt="Skip to main content" title="Skip to main content">
+          </a>
+          <a title="Skip to main content" tabindex="0" href="#skipCont">Skip to main content</a>
+        </li>
+        <li><a href="#" tabindex="0"><img src="images/sound.png" alt="sound"></a></li>
+        <li class="language"><a href="cbsehindi.html" tabindex="0"><img src="images/language-ico.png"
+              alt="language-icon"></a>
+        </li>
+        <li class="language">
+          <a class="language" href="#" tabindex="0" target="_blank"><img src="images/inst.jpg.png" alt="Instagram"
+              style="height:18px;border-width:0px;"></a>
+          <a class="language" href="#" tabindex="0" target="_blank"><img src="images/twitter.png" alt="Twitter"
+              style="height:18px;border-width:0px;"></a>
+          <a class="language" href="#" tabindex="0" target="_blank"><img src="images/facebook.png" alt="Facebook"
+              style="height:18px;border-width:0px;"> </a>
+          <a class="language" href="#" tabindex="0" target="_blank"><img src="images/youtube.png" alt="Youtube"
+              style="height:18px;border-width:0px;"> </a>
+        </li>
+        <li class="search-bar">
+          <form autocomplete="off" class="item-search" method="get" action="https://www.bing.com/search" tabindex="0"
+            target="_blank">
+            <input type="hidden" name="cp" value="CODE PAGE USED BY YOUR HTML PAGE">
+            <input type="hidden" name="FORM" value="FREESS">
+            <input type="text" class="fa fa-search" placeholder="Type here to Search" name="q" id="mySearch" style="
+                                                margin-top: 0px;
+                                                margin-left: 0px;
+                                                padding-top: 5px;
+                                                padding-left: 40px;
+                                                margin-right: 0px;
+                                                padding-right: 0px;
+                                                text-align: inherit;">
+            <input type="submit" value="Search" onclick="doSomething();" style="
+                                                width: 0px;
+                                                height: 0px;
+                                                border-top-width: 0px;
+                                              border-bottom-width: 0px;
+                                            ">
+            <input type="hidden" name="q1" value="site:https://cbse.gov.in/cbsenew/">
+          </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav class="navbar-second flex">
+    <div class="left-flex-2">
+      <ul class="flex">
+        <li><a href="#" tabindex="0"><img src="images/cbse-logo-with-name.png" style="height: 75px;"
+              alt="cbse logo"></a></li>
+      </ul>
+    </div>
+    <div class="right-flex-2">
+      <img src="images/logo.png" tabindex="0" alt="Digital CBSE logo"
+        style="height:80px; width:auto; padding:5px; float: right;">
+      <img src="images/swach-bharat.png" tabindex="0" alt="Swach Bharat logo"
+        style="height:80px; width:auto; padding:5px; float: right;">
+      <img src="images/amrit.jpg" tabindex="0" alt="AKAM logo"
+        style="height:80px; width:auto; padding:5px; float: right;">
+      <img src="images/g20-logo.png" tabindex="0" alt="G20 logo"
+        style="height:80px; width:auto; padding:5px; float: right;">
+    </div>
+  </nav>
+  <nav class="navbar_third flex">
+    <div class="container">
+      <ul class="dropdown-menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="C:\Users\yash\OneDrive\Desktop\main website\history.html">Our History</a></li>
+            <hr>
+            <li><a href="C:\Users\yash\OneDrive\Desktop\main website\b&c.html">BOARD AND COMMITTES</a></li>
+            <li><a href="#">Careers</a></li>
+            <hr>
+          </ul>
+        </li>
+        <li><a href="C:\Users\yash\OneDrive\Desktop\main website\ornogram.html">Ornogram</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="sl-show">
+    <div class="slideshow">
+      <span class="next" onclick="plusDivs(-1)">&#10095;</span>
+      <span class="prev" onclick="plusDivs(1)">&#10094;</span>
+      <div class="slide-row">
+        <div class="slide">
+          <img src="slider/2121.jpg" alt="" style="height: 400px; width: 100%;">
+        </div>
+        <div class="slide">
+          <img src="slider/PPC_2024.jpg" alt="" style="height: 400px; width: 100%;">
+        </div>
+        <div class="slide">
+          <a href="C:\Users\yash\OneDrive\Desktop\main website\main website\pledge.html"><img src="slider/banner.jpg" alt=""
+              style="height: 400px; width: 100%;"></a>
+        </div>
+        <div class="slide">
+          <img src="slider/skill.jpg" alt="" style="height: 400px; width: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="indicator">
+    <span class="dot" onclick="currentDiv(1)"></span>
+    <span class="dot" onclick="currentDiv(2)"></span>
+    <span class="dot" onclick="currentDiv(3)"></span>
+    <span class="dot" onclick="currentDiv(4)"></span>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusDivs(n) {
+      showSlides(slideIndex -= n);
+    }
+    function minusDivs(n) {
+      showSlides(slideIndex += n);
+    }
+    // Thumbnail image controls
+    function currentSlides(n) {
+      showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("slide");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+    // Automatic slideshow
+    let slideInterval = setInterval(function () {
+      plusDivs(-1)
+    }, 5000);
+  </script>
+  <section class="course-content" style="background-image: url(images/l.jpg);">
+    <div class="scroll-bg" style="width:60%; height: 240px; color:#8b0000;">
+      <div class="marker marker-ribbon marker-primary pos-absolute align_centre" style="margin-top: 46%; top: 2px;">
+        <div class="glow">&nbsp;
+          <h3 style="color:#fff; height: 20px;" tabindex="0">LATEST @ CBSE</h3>
+        </div>
+      </div>
+      <div class="scroll-div">
+        <div class="scroll-object">
+          <ul class="list"
+            style="color:#035e6c; overflow-y: scroll; height: 190px; scroll-behavior  : auto; font-size: 120%; font-family: Arial, Helvetica, sans-serif; list-style-type:none;">
+            <li><a href="#">CBSE Class 10th Result 2019</a></li>
+            <li class="list-new"><a href="documents/Extension_dates_Practical_exam_2024_07032024.pdf" target="_blank"
+                tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Extension of dates for conduct of
+                Practical Examinations / Project / Internal Assessment / Internal Grade - 2024 and uploading of marks,
+                reg (536 KB)</a> 07/03/2024<img src="images/new.gif" alt="New_img" /></li>
+            <li class="list-new"><a href="https://fitindia.nta.ac.in/" target="_blank" tabindex="0">Fit India Quiz 2023
+                Preliminary Rounds Results</a> 07/03/2024<img src="images/new.gif" alt="New_img" /></li>
+
+            <li class="list-new"><a href="documents/Vacancy_Notification_CTET_05032024.pdf" target="_blank"
+                tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Vacancy Notification for various Post
+                (536 KB)</a> 05/03/2024<img src="images//new.gif" alt="New_img" /></li>
+            <li class="list-new">Recruitment of Young Professional in CBSE (Lastdate 07.03.2024 upto 6.00 pm)-reg (413
+              KB) <a href="documents/Public_Notice_interview_Yung_Pro_01032024.pdf" target="_blank" tabindex="0"
+                style="color: #e51111;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice</a> | <a
+                href="documents/walkins_notice.pdf" target="_blank" tabindex="0" style="color: #e51111;"><i
+                  style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement</a> 01/03/2024</li>
+            <li class="list-new"><a href="documents/School_result_committee_(SRC)_2021_offline_payment_29022024.pdf"
+                target="_blank" tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Offiline payment of
+                the remaining claims of members of School Result Committee (SRC) 2021, reg (532 KB)</a> 29/02/2024<img
+                src="images//new.gif" alt="New_img" /></li>
+            <li class="list-new"><a href="documents/Notification_Dubai_Jurisdiction_29022024.pdf" target="_blank"
+                tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding address and
+                jurisdiction of Regional Office Dubai & COE (776 KB)</a> 29/02/2024<img src="images//new.gif"
+                alt="New_img" /></li>
+            <li class="list-new"><a href="documents/Extension_Last_Date_Notification_Various_Post_27022024.pdf"
+                target="_blank" tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding
+                extension of Last date of submission of online applications for various posts on Deputation basis (367
+                KB)</a> | <a href="https://cbseit.in/cbse/2024/recdep/index.aspx" target="_blank" tabindex="0"
+                style="color: #e51111;">Click here to apply</a> 27/02/2024<img src="images//new.gif" alt="New_img" />
+            </li>
+            <li class="list-new"><a href="documents/Notification_Dubai_21022024..pdf" target="_blank" tabindex="0"><i
+                  style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding opening of new Regional
+                office, Dubai (501 KB)</a> 21/02/2024<img src="images//new.gif" alt="New_img" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <ul class="card-container">
+      <li class="card">
+        <img src="flex img/b-e(1).png" alt="Image 1">
+        <div class="card-content">
+          <h3>BOARD Examinations</h3>
+        </div>
+      </li>
+      <li class="card">
+        <img src="flex img/classroom.png" alt="Image 2">
+        <div class="card-content">
+          <h3>SCHOOL CORNER</h3>
+        </div>
+      </li>
+      <li class="card">
+        <img src="flex img/course4.jpg" alt="Image 3">
+        <div class="card-content">
+          <h3>BOARDS CIRCULARS</h3>
+        </div>
+      </li>
+      <li class="card">
+        <img src="flex img/frame.png" alt="Image 3">
+        <div class="card-content">
+          <h3>CHAIRMAIN CORNER</h3>
+        </div>
+      </li>
+    </ul>
+    <ul class="card-container">
+      <li class="card">
+        <img src="flex img/pubserv.jpg" alt="Image 1">
+        <div class="card-content">
+          <h3>PUBLIC SERVICES</h3>
+        </div>
+      </li>
+      <li class="card">
+        <img src="flex img/rajbhasha.JPG" alt="Image 2">
+        <div class="card-content">
+          <h3>SCHOLL CORNER</h3>
+        </div>
+      </li>
+      <li class="card">
+        <img src="flex img/result.jpg" alt="Image 3">
+        <div class="card-content">
+          <h3>RESULT AND STATISTICS </h3>
+        </div>
+      </li>
+      <li class="card">
+        <img src="flex img/scholarship1.png" alt="Image 3">
+        <div class="card-content">
+          <h3>SCHOLARSHIPS</h3>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer" style="background-image: url(images/footer.png); height: 60%;">
+    <div class="footer-container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>MEDIA</h4>
+          <ul class="ul-footer">
+            <li><img src="images/facebook.png" alt="" style="height:18px;border-width:0px;"><a href="">Facebook</a></li>
+            <li><img src="images/inst.jpg.png " alt="" style="height:18px;border-width:0px;"><a href="">Instagram</a>
+            </li>
+            <li><img src="images/twitter.png" alt="" style="height:18px;border-width:0px;"><a href="">twitter</a></li>
+            <li><img src="images/youtube.png" alt="" style="height:18px;border-width:0px;"><a href="">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>CONTACT</h4>
+          <ul class="ul-footer">
+            <li><img src="images/gps.png" alt="" style="height:20px;border-width:4px;"><a href="">Address: Shiksha
+                Kendra-2,<br>
+                Community Centre, Preet Vihar, Delhi - 110092</a></li><br>
+            <li><img src="images/telephone.png" alt="" style="height:20px;border-width:4px;"><a href="">Tel:
+                011-22509256, 22509257,<br> 22509258, 22509259</a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>USEFUL LINKS</h4>
+          <ul class="ul-footer">
+            <li><a href="">Statistics of Result</a></li>
+            <li><a href="">Recruitment</a></li>
+            <li><a href="">Web Information Manager</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">GOI Directory</a></li>
+            <li><a href="">India Portal</a></li>
+            <li><a href="">Website Policy</a></li>
+            <li><a href="">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
